@@ -1,3 +1,6 @@
+Yudakov
+
+
 library(dplyr)
 library(pbapply)
 generate_data <- function(alpha){
