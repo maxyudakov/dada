@@ -19,8 +19,6 @@ estimate <- function(data){
   lm (y ~ x1 + x2 +x3, data=data)$coefficients
 }
 
-
-
 iteration <- function(alpha) {
   data <- generate_data(alpha)
   est <- estimate(data)
