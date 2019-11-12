@@ -20,6 +20,7 @@ estimate <- function(data){
 }
 
 
+
 iteration <- function(alpha) {
   data <- generate_data(alpha)
   est <- estimate(data)
@@ -31,3 +32,5 @@ simulation <- function(n, alpha) {
   for (x in 1:n) {results <- c(results, iteration())}
   return(mean(results))
 }
+
+simulation
